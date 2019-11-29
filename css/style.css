@@ -1,0 +1,122 @@
+body{
+    background: lightgray;
+}
+nav{
+    background-color: white;
+    padding: 0.8em;
+}
+ .list-item{
+    list-style: none;
+    padding-left: 0;
+    margin: 0 auto;
+    
+}
+
+.list-item li{
+    display: inline-block;
+    font-size: 1.2em;
+}
+.list-item a{
+    text-decoration: none;
+    padding: 0.2em;
+    color: green;
+} 
+.list-item a:hover{
+    color: black;
+}
+.list-group-item{
+    margin-bottom: 0.5em;
+}
+h1{
+    text-align: center;
+    padding: 0.6em;
+}
+h4{
+    text-transform: uppercase;
+}
+/*
+SECTION ENTRANCE
+*/
+
+.entrance i{
+    color: red;
+    font-weight: bold;
+}
+.entrance p:nth-child(6){
+    font-size: 0.8em;
+}
+
+/*SECTION SERVICES AND ACCOMODATION*/
+th{
+    text-align: center;
+    background: green;
+    color: white;
+}
+tr{
+    background: white;
+}
+td{
+    font-size: 0.9em;
+}
+
+/*SECTION CONTACT*/
+.contact p{
+ margin-bottom: 0.8em;
+
+}
+
+.contact a {
+    text-decoration: none;
+    
+}
+.contact a:hover{
+    text-decoration: underline;
+}
+
+.fas{
+    color: white;
+}
+
+.dark{
+    background: black;
+    color: green;
+}
+.box-wheather{
+    background: white;
+    padding: 1em;
+}
+.box-wheather ul{
+    list-style: none;
+}
+.box-wheather li{
+    font-size: larger;
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+.box-wheather .fas{
+    color: black;
+}
+.global{
+    background: black;
+    padding: 1em;
+}
+.global p{
+    color: white;
+    text-align: right;
+}
+
+/*
+*MEDIA QUERIES
+*/
+
+@media print{
+    nav{
+        display: none;
+    }
+}
+
+@media (max-width:800px){
+    .list-item li{
+        display: block;
+    }
+}
